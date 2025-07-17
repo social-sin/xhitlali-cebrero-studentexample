@@ -1,0 +1,208 @@
+@font-face {
+  font-family: "Troglop";
+  src: url("https://cdn.glitch.global/90737b3e-5e0c-47cc-afe7-bb69139e0110/TROGLOP_.ttf?v=1700351007084")
+}
+
+@font-face {
+  font-family: "Plank";
+  src: url("https://cdn.glitch.global/90737b3e-5e0c-47cc-afe7-bb69139e0110/PLANK___.TTF?v=1700351030786")
+}
+
+@font-face {
+  font-family: "Popstar";
+  src: url("https://cdn.glitch.global/90737b3e-5e0c-47cc-afe7-bb69139e0110/POPSTAR_pop.TTF?v=1700511539432")
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Plank", sans-serif;
+  color: black;
+}
+
+html {
+  line-height: 1.4;
+  font-size: 16pt;
+}
+
+body {
+  background-image: url(https://cdn.glitch.global/90737b3e-5e0c-47cc-afe7-bb69139e0110/mainpage.jpg?v=1700350710846);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: auto;
+  }
+
+
+header {
+  width:100vw;
+}
+
+main{
+  padding: 100px;
+}
+
+
+header nav {
+  color: black;
+  font-size: 15pt;
+  width: 100%;
+  height: 80px;
+  opacity: 50%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  justify-content: space-evenly;
+}
+
+
+nav a:hover {
+color: pink;
+}
+
+h1 {
+  font-family: "Troglop", sans-serif;
+  font-size: 95pt;
+  letter-spacing: 13pt;
+  text-align: center;
+}
+
+.floatinglogo {
+  float:center;
+  animation: spin 2s infinite;
+  margin: 0 auto;
+  width: 416px;
+  height: 206px;
+}
+
+h5 {
+  font-size: 20pt;
+  font-family: "Popstar", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 90pt;
+  font-family: "Troglop", sans-serif;
+  color: black;
+  width: 500px;
+  height: 500px;
+}
+
+.soobin {
+  display:flex;
+  margin:0 auto;
+  width: 75vw;
+}
+
+.soobin img {
+  width: 480px;
+  height: 590px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-left: 300px;
+}
+
+.stars img {
+  width: 1000px;
+  height: auto;
+  position: relative;
+  right: 270px;
+  top: 100px;
+}
+
+.chrome img {
+  width: 300px;
+  height: auto;
+}
+
+.chrome {
+  position: relative;
+  bottom: 500px;
+  left: 350px;
+  width: 500px;
+}
+
+.soobin h2 {
+  display: flex;
+  display: relative;
+  left: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h4 {
+  font-family: "Popstar", sans-serif;
+  width: 25vw;
+  position: relative;
+  text-align: right;
+  left: 50vw;
+  bottom: 100px;
+  letter-spacing: .2rem;
+  }
+
+.soobin chrome {
+  display:flex;
+  justify-content: left;
+}
+
+.soobin p {
+  font-family: "Popstar", sans-serif;
+  display: flex;
+  justify-content: left;
+}
+h7{
+  font-size: 20pt;
+  font-family: "Plank", sans-serif;position: relative;
+  text-align: right;
+  left: 60vw;
+  bottom: 25vw;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.row1 img, .row1 div, .row1 h3, .row2 img, .row2 div, .row2 h3 {
+  width: 16%;
+  height: auto;
+  font-size: 30pt;
+  letter-spacing: .2rem;
+}
+
+.row1 h3, .row2 h3 {
+  position: relative;
+  left: -20px;
+}
+
+.row1 p {
+  padding-left: 20px;
+  font-size: 12pt;
+  font-family: "Popstar", sans-serif;
+}
+
+.row2 p {
+  padding-left: 20px;
+  font-size: 12pt;
+  font-family: "Popstar", sans-serif;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  from { transform: rotateX(0deg); } 
+    to { transform: rotateX(360deg); }
+}
+
